@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="RegBox">
+            <h1>Registration</h1>
+            <div class="FeildBox">
+                <label for="txt1">Name:</label>
+                <br>
+                <input type="text" name="txt1" id="txt1" placeholder="Name">
+                <br><br>
+                <label for="txt2">Email:</label>
+                <br>
+                <input type="email" name="txt2" id="txt2" placeholder="Email">
+                <br><br>
+                <label for="Drop1">City:</label>
+                <br>
+                <select name="Drop1" id="Drop1">
+                    <option disabled selected hidden>--Select City--</option>
+                    <option value="Himmatnagar">Himmatnagar</option>
+                    <option value="Modasa">Modasa</option>
+                    <option value="Ider">Ider</option>
+                </select>
+                <br><br>
+                <label for="rdo1">Gender:</label>
+                <br>
+                <input type="radio" id="rdo1" name="rdo1" value="Male">
+                <label for="rdo1" id="lbl1">Male</label>
+                <input type="radio" id="rdo2" name="rdo1" value="Female">
+                <label for="rdo2" id="lbl2">Female</label>
+                <br><br>
+                <label for="add1">Address:</label>
+                <br>
+                <textarea id="add1" name="add1" placeholder="Address"></textarea>
+                <br><br>
+                <label for="dt1">Date:</label>
+                <br>
+                <input type="date" name="dt1" id="dt1">
+            </div>
+            <div class="LightBlueBox" id="LightBlueBox">
+                <div id="hide">
+                    <button id="btn1" name="btn1" onclick="btn1()">Registration Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="Data">
+            <h1>Data</h1>
+            <table id="tbl1" border="1" align="center" width="940px">
+                <thead>
+                    <tr height="40">
+                        <th>No</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>City</th>
+                        <th>Gender</th>
+                        <th>Address</th>
+                        <th>Date</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody id="tbdTag">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="form.js"></script>
+</body>
+
+</html>

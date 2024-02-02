@@ -1,0 +1,95 @@
+body {
+    font-family: Aharoni;
+}
+
+.main {
+    width: 940px;
+    padding-top: 10px;
+    margin: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.BlueBox {
+    font-weight: bold;
+    color: white;
+    border: 1px solid black;
+    background-color: blue;
+}
+
+.BlueBox h1 {
+    padding: 10px;
+}
+
+.BlueText {
+    padding: 20px;
+    border: solid 1px black;
+}
+
+.BlueText #txt1 {
+    width: 100%;
+}
+
+.lightBlue {
+    background-color: rgb(154, 225, 248);
+    padding: 5px 0;
+    padding-left: 5px;
+    border: 1px solid black;
+    border-top: none;
+}
+
+.lightBlue #btn1 {
+    background-color: rgb(59, 174, 212);
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    border: none;
+}
+.lightBlue #btn1:hover{
+    background-color:  rgb(30, 97, 119);;
+}
+
+.Box {
+    padding-top: 30px;
+    margin: auto;
+}
+
+.Box h1 {
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    background-color: maroon;
+}
+
+.col-4 {
+    height: 400px;
+    border: 1px solid maroon;
+}
+
+
+
+.work {
+    margin-top: 20px;
+    margin-left: 25px;
+    padding-left: 20px;
+    background-color: white;
+    box-shadow: 0 0 15px 3px;
+    height: 75px;
+    width: 250px;
+    font-weight: normal;
+}
+
+.work p {
+    padding-top: 20px;
+}
+
+.work button {
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    background-color: rgb(53, 53, 217);
+}

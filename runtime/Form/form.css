@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    margin: auto;
+    width: 1000px;
+    padding: 30px;
+}
+.RegBox{
+    
+    border: 1px solid blue;
+   
+}
+.RegBox h1{
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+.FeildBox{
+    padding: 20px;
+}
+.FeildBox input,select,textarea{
+    width: 100%;
+}
+.FeildBox label{
+    font-weight: bold;
+}
+.FeildBox #rdo1,#rdo2,#lbl1,#lbl2{
+    width: 10px;
+    font-weight: normal;
+}
+
+.LightBlueBox{
+    background-color: rgb(59, 197, 243);
+    padding: 10px;
+}
+button{
+    background-color: rgb(4, 49, 174);
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+}
+.Data{
+    height: 200px;
+}
+.Data h1{
+    background-color: blue;
+    padding: 10px;
+    color: white;
+}
+.tbdTag{
+    border: 1px solid bla;
+}

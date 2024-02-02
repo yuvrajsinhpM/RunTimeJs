@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <table cellspacing="0" id="tbl1"  align="center" width="1000">
+        <thead>
+            <tr height="40">
+                <th>No</th>
+                <th>Product</th>
+                <th>Price</th>
+                <th>Qty</th>
+                <th>Total</th>
+                <th>
+                    <button id="btnAdd" onclick="btn1()" type="button" name="btnAdd">Add</button>
+                </th>
+            </tr>
+        </thead>
+        <tbody id="tbdTag">
+            <!-- <tr align="center" height="40">
+                <td>1</td>
+                <td>
+                    <input  type="text" name="txt1" id="txt1">
+                </td>
+                <td>
+                    <input type="text" name="txt1" id="txt1">
+                    
+                </td>
+                <td>
+                    <input type="text" name="txt1" id="txt1">
+                    
+                </td>
+                <td>
+                    200
+                </td>
+                <td>
+                    <input type="button" value="Remove">
+                </td>
+            </tr>  -->
+        </tbody>
+        <tfoot>
+            <tr height="40">
+                <th colspan="4" align="right">Total</th>
+                <th colspan="2">
+                    <label id="lblGrandTotal">0</label>
+                </th>
+            </tr>
+            <tr height="40">
+                <th colspan="4" align="right">Discount</th>
+                <th colspan="2">
+                    <label id="lblDiscount">0</label>
+                </th>
+            </tr>
+            <tr height="40">
+                <th colspan="4" align="right">NetTotal</th>
+                <th colspan="2">
+                    <label id="lblNetAmount">0</label>
+
+                </th>
+            </tr>
+        </tfoot>
+    </table>
+    <script src="shop.js"></script>
+</body>
+
+</html>
